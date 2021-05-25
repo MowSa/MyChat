@@ -6,7 +6,7 @@ include("include/connection.php");
         $name = htmlentities(mysqli_real_escape_string($con, $_POST['user_name']));
         $pass = htmlentities(mysqli_real_escape_string($con, $_POST['user_pass']));
         $email = htmlentities(mysqli_real_escape_string($con, $_POST['user_email']));
-        $country = htmlentities(mysqli_real_escape_string($con, $_POST['user_country']));
+        $team = htmlentities(mysqli_real_escape_string($con, $_POST['user_team']));
         $gender = htmlentities(mysqli_real_escape_string($con, $_POST['user_gender']));
         $rand = rand(1,2);
 
@@ -34,8 +34,8 @@ include("include/connection.php");
         else if ($rand == 2)
             $profile_pic = "images/codingcafe2.png";
 
-        $insert = "insert into users (user_name, user_pass, user_email, user_profile, user_country, user_gender) 
-            values('$name', '$pass', '$email', '$profile_pic', '$country', '$gender')";
+        $insert = "insert into users (user_name, user_pass, user_email, user_profile, user_team, user_gender) 
+            values('$name', '$pass', '$email', '$profile_pic', '$team', '$gender')";
 
         $query = mysqli_query($con, $insert);
 

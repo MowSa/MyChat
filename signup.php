@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatable" content="IT=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Courgette|Pacifico:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Tahoma|Tahoma|Tahoma:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/3.3.7/css/bootstrap.min.css"></script>
@@ -49,15 +49,15 @@
         </div>
 
         <div class="form-group">
-            <label>Country</label>
-            <select class="form-control" name="user_country" required>
-                <option disabled="">Select a Country</option>
-                <option>Pakistan</option>
-                <option>United States of America</option>
-                <option>India</option>
-                <option>UK</option>
-                <option>Bangladesh</option>
-                <option>France</option>
+            <label>NBA Team</label>
+            <select class="form-control" name="user_team" required>
+                <option disabled="">Select a Team</option>
+                <option>Raptors</option>
+                <option>Warriors</option>
+                <option>Lakers</option>
+                <option>Mavericks</option>
+                <option>Heat</option>
+                <option>Clippers</option>
             </select>
         </div>
 

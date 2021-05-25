@@ -1,7 +1,7 @@
 body{
     color: #999;
     background-image: url(../images/background.jpg);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Tahoma', sans-serif;
     background-size: cover;
 }
 .form-control{
@@ -27,13 +27,13 @@ body{
     font-size: 34px;
     font-weight: bold;
     margin: 0 0 10px;
-    font-family: 'Pacifico', sans-serif;
+    font-family: 'Tahoma', sans-serif;
 }
 .form-header p{
     margin: 20px 0 15px;
     font-size: 17px;
     line-height: normal;
-    font-family: 'Courgette',sans-serif;
+    font-family: 'Tahoma',sans-serif;
 }
 .signup-form{
     width: 390px;
